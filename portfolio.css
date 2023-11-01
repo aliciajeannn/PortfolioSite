@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    border: dotted black;
+    padding: 13px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(52, 88, 88);
+    margin: 20px;
+}
+
+#sunset img{
+    width: 600px;
+    border-radius: 15px;
+}
+#links{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+#links a{
+    margin: 0 10px;
+}
+h1{
+    font-weight: 300;
+    margin: 0;
+}
+h2{
+    font-weight: 200;
+}
+footer{
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    padding: 10px;
+}
