@@ -1,35 +1,36 @@
 header{
-    display: flex;
-    border: dotted black;
     padding: 13px;
     align-items: center;
     border-radius: 20px;
     justify-content: space-between;
+    background-image: url(greenery.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
 }
 #name h1{
+    color: rgb(177, 189, 131);
+    background-color: rgba(0,0,0,0.5);
+    font-weight: 300px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: rgb(52, 88, 88);
+    background-color: #0A100C;
     margin: 20px;
+    text-align: center;
 }
 #sunset img{
-    width: 600px;
+    width: 500px;
     border-radius: 15px;
 }
 #links{
     display: flex;
     justify-content: flex-end;
-    align-content: center;
 }
 #links a{
     margin: 0 10px;
-}
-h1{
-    font-weight: 300;
-    margin: 0;
 }
 h2{
     font-weight: 200;
@@ -37,7 +38,7 @@ h2{
 footer{
     height: 80px;
     width: 80px;
-    align-items: center;
+    text-align: center;
     padding: 10px;
 }
 #brasil img{
@@ -66,8 +67,6 @@ span{
     #sunset img{
         width: 400px;
     }
-    footer img{
-        display: block;
-    }
+
 
 }
