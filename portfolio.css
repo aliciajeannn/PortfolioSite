@@ -8,38 +8,42 @@ header{
     background-repeat: no-repeat;
     height: 40vh;
 }
-#name h1{
+#name{
     color: #C5B358	;
     background-color: rgba(0,0,0,0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    width:340px; height: 340px;
+    width:395px; height: 350px;
     border-radius: 80%;
     font-family: 'Nunito', sans-serif;
     font-family: 'Zeyada', cursive;
-    font-size: 45px;
+    font-size: 25px;
+}
+nav{
+    font-size: 18px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
 body{
-    font-family: nu;
     background-color: #0A100C;
     margin: 20px;
     text-align: center;
     color:#C5B358	;
+    font-size: 20px;
+    font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 }
 #sunset img{
     width: 500px;
     border-radius: 15px;
 }
-#links{
+#links a{
     display: flex;
     justify-content: flex-end;
+    text-decoration: none;
+    color: #758D64;
 }
 #links a{
     margin: 0 10px;
-}
-h2{
-    font-weight: 200;
 }
 footer{
     height: 80px;
