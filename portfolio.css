@@ -9,17 +9,23 @@ header{
     height: 40vh;
 }
 #name h1{
-    color: rgb(177, 189, 131);
+    color: #C5B358	;
     background-color: rgba(0,0,0,0.5);
-    font-weight: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width:340px; height: 340px;
+    border-radius: 80%;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Zeyada', cursive;
+    font-size: 45px;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: nu;
     background-color: #0A100C;
     margin: 20px;
     text-align: center;
+    color:#C5B358	;
 }
 #sunset img{
     width: 500px;
